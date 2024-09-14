@@ -1,0 +1,137 @@
+@font-face {
+    font-family: "Din-bold";
+    src: url(DIN-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Din-medium";
+    src: url(DIN-Medium.ttf);
+}
+
+@font-face {
+    font-family: "Din-light";
+    src: url(DIN-Light.ttf);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+body {
+   font-family: Din-medium, sans-serif;
+   line-height: 1.4rem;
+}
+
+.heading {
+    text-align: center;
+    margin: 20px;
+}
+
+.douMain {
+   padding: 25px 25px 0px 25px; 
+}
+
+input {
+    display: block;
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 9px;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    background-color: rgba(128, 128, 128, 0.086);
+    border: 2px solid rgba(128, 128, 128, 0.293);
+    font-family: Din-Medium;
+}
+
+input::placeholder {
+    color: rgba(92, 88, 88, 0.863);
+    font-family: Din-Medium;
+}
+
+.ageDesc {
+    margin: -10px 0px 20px 0px
+}
+
+#blue {
+    color: #49C0F8;
+}
+
+button {
+    width: 100%;
+    font-size: 0.9rem;
+    border-radius: 10px;
+    padding: 8px;
+    letter-spacing: 0.7px;
+    font-family: Din-Bold;
+    font-weight: bolder;
+}
+
+.createBtn {
+    background-color: #49C0F8;
+    color: white;
+    border: 1px solid #49C0F8;
+    border-bottom: 4px solid #3096c5;
+}
+
+.facebook {
+    background-color: white;
+    border: 2px solid rgba(128, 128, 128, 0.29);
+    border-bottom: 4px solid rgba(128, 128, 128, 0.34);
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: rgb(44, 44, 170)
+}
+
+.or {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.firstline {
+    height: 2px;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.437);
+    margin: 15px 0px;
+
+}
+.secondline {
+    height: 2px;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.437);
+    margin: 15px 0px;
+
+}
+
+#policy {
+    color:#49C0F8;
+    font-weight: bold;
+}
+
+.ageDesc {
+    color: rgba(92, 88, 88, 0.863);
+}
+
+.login {
+    font-weight: bold;
+    text-align: center;
+}
+
+.tos {
+    text-align: center;
+    color: rgba(155, 151, 151, 0.863);
+    margin: 20px 0px;
+    font-family: Din-Medium;
+}
+
+.tp {
+    font-weight: bold;
+    color: rgba(136, 134, 134, 0.863);
+}
+
+line {
+    width: 48%
+}
